@@ -48,6 +48,7 @@ function clearInput() {
     inputFieldEl.value = ""
 }
 
+
 function addItems(item) {
  
     let itemID = item[0]
@@ -63,5 +64,3 @@ function addItems(item) {
     })
     shoppingListEl.append(newEl)
 }
-
-
