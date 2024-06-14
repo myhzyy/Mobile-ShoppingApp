@@ -31,8 +31,6 @@ onValue(shoppingListInDB, function(snapshot) {
             let currentItem = itemsArray[i]
             let currentItemID = currentItem[0]
             let currentItemValue = currentItem[1]
-    
-    
             addItems(currentItem)
         }
     }   else  {
@@ -45,7 +43,6 @@ function clearShoppingListEl() {
     shoppingListEl.innerHTML = ""
 
 }
-
 
 function clearInput() {
     inputFieldEl.value = ""
