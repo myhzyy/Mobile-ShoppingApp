@@ -61,8 +61,6 @@ function addItems(item) {
         let exaxctLocationOfItemInDB = ref(database,`shoppingList/${itemID}` )
         remove(exaxctLocationOfItemInDB)
     })
-
-
     shoppingListEl.append(newEl)
 }
 
