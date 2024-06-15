@@ -20,7 +20,6 @@ addButtonEl.addEventListener("click", function() {
     clearInput()
 })
 
-
 onValue(shoppingListInDB, function(snapshot) {
 
     if (snapshot.exists())  {
