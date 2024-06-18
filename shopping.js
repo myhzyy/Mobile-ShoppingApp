@@ -43,6 +43,7 @@ function clearShoppingListEl() {
 
 }
 
+
 function clearInput() {
     inputFieldEl.value = ""
 }
