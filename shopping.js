@@ -38,6 +38,7 @@ onValue(shoppingListInDB, function(snapshot) {
          
 })
 
+
 function clearShoppingListEl() {
     shoppingListEl.innerHTML = ""
 
