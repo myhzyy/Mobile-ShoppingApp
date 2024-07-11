@@ -65,3 +65,4 @@ function addItems(item) {
   });
   shoppingListEl.append(newEl);
 }
+//
