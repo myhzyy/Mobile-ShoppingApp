@@ -11,7 +11,7 @@ const appSettings = {
   databaseURL:
     "https://mobile-app-data-651ba-default-rtdb.europe-west1.firebasedatabase.app/",
 };
-//////////
+///////////
 const app = initializeApp(appSettings);
 const database = getDatabase(app);
 const shoppingListInDB = ref(database, "shoppingList");
